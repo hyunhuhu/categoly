@@ -269,15 +269,19 @@ nav .head_logo{
 .quick_in{
 	position:absolute;
 	width:82px;
-  height: 409px;
+  height: 389px;
 	left: 88%; 
 	bottom:20px; 
 }
-.quick_menu{ box-shadow: 0 0 10px rgba(0,0,0,0.2);}
+.quick_menu{ 
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 0 0 30px 30px;
+}
 .quick_menu li{
   font-family: fontawesome;
   position: relative;
 }
+
 
 
 .topmove{cursor:pointer;}
